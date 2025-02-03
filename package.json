@@ -1,0 +1,22 @@
+{
+  "name": "PumpSnipingBot",
+  "version": "1.0.0",
+  "description": "Sniping bot on solana to snipe tokens creating from pump.fun",
+  "main": "main.js",
+  "author": "rytodevc",
+  "license": "MIT",
+  "type": "module",
+  "scripts": {
+    "start": "node main.js"
+  },
+  "dependencies": {
+    "@solana/web3.js": "^1.95.2",
+    "axios": "^1.7.4",
+    "bs58": "^6.0.0",
+    "dotenv": "^16.4.5",
+    "form-data": "^4.0.0",
+    "fs": "^0.0.1-security",
+    "ws": "^8.18.0"
+  },
+  "devDependencies": {}
+}
